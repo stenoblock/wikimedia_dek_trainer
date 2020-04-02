@@ -29,7 +29,8 @@ def show_off(top, outlines):
     root.geometry("+0+0")
     root.title(top)
     root.resizable(FALSE, FALSE)
-    nextbutton = Button(root, text = "Neuen Satz generieren", command = root.destroy)
+    nextbutton = Button(root, text = "Neuen Satz generieren",
+                        command = root.destroy)
     nextbutton.pack(anchor = NW)
     quitbutton = Button(root, text = "Programm beenden", command = quit)
     quitbutton.pack(anchor = NW)
