@@ -1,0 +1,2 @@
+Needs Tcl/Tk version 8.6 to run.
+This app takes a random line from inputfile.txt and (if the png directory contains PNGs for all the words of that line) prints the line both in longhand as well as in shorthand. If you add thumbnails to the directory, make sure to follow the naming conventions. Change the contents of inputfile.txt to anything you want, just make sure the lines of the file do not begin or end with whitespace.
